@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Velvelyne';
-  src: url('/portfolio/fonts/velvelyne-light.woff2') format('woff2');
+  src: url('./fonts/velvelyne-light.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
