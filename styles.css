@@ -1,15 +1,15 @@
-/* 1. Define the font first */
+
 @font-face {
-  font-family: 'Velvelyne'; /* Use your actual font name here */
+  font-family: 'Velvelyne';
   src: url('fonts/velvelyne-light.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
 
-/* 2. Apply font and styles */
+
 body {
-  background-color: #f9f9f9; /* Use the background color you want */
-  font-family: 'Velvelyne', Arial, sans-serif; /* Add fallbacks */
+  background-color: #f9f9f9; 
+  font-family: 'Velvelyne', Arial, sans-serif;
   color: #333;
 }
 
@@ -23,7 +23,7 @@ p {
   line-height: 1.6;
 }
 
-/* Apply the font to other headers too */
+
 h2, h3 {
   font-family: 'Velvelyne', Arial, sans-serif;
 }
