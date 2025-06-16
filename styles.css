@@ -2,8 +2,8 @@
 @font-face {
   font-family: 'Velvelyne';
   src: url('./fonts/velvelyne-light.woff2') format('woff2');
-  font-weight: light;
-  font-style: light;
+  font-weight: normal;
+  font-style: normal;
 }
 
 
