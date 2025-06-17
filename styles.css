@@ -1,13 +1,13 @@
 @font-face {
   font-family: 'Velvelyne';
-  src: url('../fonts/Velvelyne-light.woff2') format('woff2');
+  src: url('../fonts/Velvelyne-Regular.woff2') format('woff2');
   font-weight: 300;
   font-style: normal;
 }
 
 body {
   background-color: #f9f9f9; 
-  font-family: 'Velvelyne', Arial, sans-serif;
+  font-family: 'Velvelyne'; Arial, sans-serif;
   color: #333;
 }
 
