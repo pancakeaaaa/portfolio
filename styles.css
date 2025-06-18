@@ -72,11 +72,12 @@ nav ul li a {
   display: flex;
   align-items: center;
   font-family: 'Avara_Bold', Arial, sans-serif;
-  padding: 0.5vw 1vw;
+  padding: 0 20px;
   text-decoration: none;
   font-size: 28px;
   line-height: 1;
   width: auto;
+  height: 100%;
 }
 
 nav ul li a:link,
