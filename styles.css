@@ -26,12 +26,12 @@
     font-style: normal;
 }
 
-body {
-  background-color:transparent; 
+body, nav ul {
+  margin: 0;
+  padding: 0;
+  background-color: transparent;
   font-family: 'Velvelyne', Arial, sans-serif;
   color: #333;
-  padding:0px;
-  margin:0px;
 }
 
 h1 {
@@ -39,7 +39,8 @@ h1 {
   font-size: 2em;
   font-family: 'Velvelyne', Arial, sans-serif;
 }
- ul {
+
+nav ul {
   position: fixed;
   top: 0;
   left: 0; /* <-- THIS anchors it to the left edge */
@@ -50,6 +51,15 @@ h1 {
   margin: 0;
   padding: 10px 1vw 10px 0;
   background-color: transparent;
+  width: 100%;
+}
+
+nav {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
 }
 
