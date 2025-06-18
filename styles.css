@@ -16,7 +16,7 @@
     font-family: 'Avara_BoldItalic';
     src:url('../portfolio/fonts/Avara-BoldItalic.woff2') format('woff2');
     font-weight: normal;
-    font-style: italic;
+    font-style: normal;
 }
 
 @font-face {
@@ -65,7 +65,8 @@ nav ul li a {
   text-decoration: none;
   text-align:left;
   width:100%;
-  padding: 0px 0vw;
+  padding: 5px 0vw;
+  font-fammily:'Avara-Bold', Velvelyne;
 }
 
 nav ul li a:link,
