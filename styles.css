@@ -16,30 +16,45 @@ h1 {
   font-size: 2em;
   font-family: 'Velvelyne', Arial, sans-serif;
 }
-ul {
-  list-style-type: none;
+nav ul {
+  position: fixed;
+  top: -1.7vh; /* You can adjust this to 0 if it's too high */
+  display: flex;
+  font-size: 3.7vw;
+  font-weight: 100;
+  z-index: 50;
+  letter-spacing: 0.5px;
+  transform: rotate(0deg);
   margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
+  padding: 10px;
+  background-color: white; /* optional: keeps it visible */
+  width: 100%;
 }
 
-li {
-  float: left;
-  margin: right 10px;
+nav ul li {
+  list-style: none;
 }
 
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+nav ul li a {
+  display: inline-block;
   text-decoration: none;
+  padding: 1px 1vw;
 }
 
-li a:hover {
-  background-color: #111;
+nav ul li a:link,
+nav ul li a:visited {
+  color: black;
 }
+
+nav ul li a:hover {
+  background-color: #26f268;
+  color: white;
+}
+
+nav ul li a:active {
+  background-color: #26f268;
+}
+
 p {
   line-height: 1.6;
 }
