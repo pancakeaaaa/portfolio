@@ -9,6 +9,7 @@ body {
   background-color:transparent; 
   font-family: 'Velvelyne', Arial, sans-serif;
   color: #333;
+  padding:0px;
 }
 
 h1 {
@@ -26,7 +27,7 @@ nav ul {
   letter-spacing: 0.5px;
   transform: rotate(0deg);
   margin: 0;
-  padding-left: -1.7vh !important;
+  padding-left: 0px !important;
   padding-right: 0px !important;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -41,7 +42,7 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   text-decoration: none;
-  padding: 5px 5vw;
+  padding: 0px 0vw;
 }
 
 nav ul li a:link,
