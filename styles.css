@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'Velvelyne';
   src: url('../portfolio/fonts/Velvelyne-Regular.woff2') format('woff2');
-  font-weight: 300;
+  font-weight: 400;
   font-style: normal;
 }
 
@@ -9,6 +9,7 @@ body {
   background-color: #f9f9f9; 
   font-family: 'Velvelyne', Arial, sans-serif;
   color: #333;
+  padding-top: 60px;
 }
 
 h1 {
