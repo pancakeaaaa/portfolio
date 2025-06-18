@@ -86,7 +86,8 @@ nav ul li a {
   align-items: flex-start; 
   justify-content: flex-start; 
   font-family: 'Avara_Bold', Arial, sans-serif;
-  padding: 0 20px; 
+  padding-bottom: 0px;
+  padding-top: 2px; 
   margin: 0px;
   text-decoration: none;
   font-size: 45px !important;
