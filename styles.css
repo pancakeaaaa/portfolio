@@ -26,6 +26,12 @@
     font-style: normal;
 }
 
+html, body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
 body, nav ul {
   margin: 0;
   padding: 0;
