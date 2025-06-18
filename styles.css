@@ -102,13 +102,18 @@ nav ul li a {
   align-items: center; 
   justify-content: flex-start; 
   font-family: 'Avara_Bold', Arial, sans-serif;
-  padding: 5px 30px 0 0;
+  padding: 5px 30px 0 0; /* top right bottom left */
   margin: 0;
   text-decoration: none;
   font-size: 40px !important;
   line-height: 1;
   height: auto;
   color: black;
+  flex-shrink: 0;
+}
+
+nav ul li:last-child a {
+  padding-right: 0; /* removes the gap on the last item */
 }
 
 nav ul li a:hover {
