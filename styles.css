@@ -29,11 +29,9 @@ li{
 }
 
 a {
-  display: inline;
+  display: inline-block;
   color:#f9f9f9
-  text-align: center;
   padding: 14px;
-  text-decoration: none;
 }
 
 li a:hover{
