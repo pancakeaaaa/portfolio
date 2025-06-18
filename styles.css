@@ -19,25 +19,19 @@ h1 {
 }
 
 li{
-  display: inline;
   position:fixed;
-  padding:14px;
-  color:#f9f9f9
-}
-.navbar ul{
-  position:fixed;
-  text-align:left;
-  list-style-type: none;
-  background-color:white;
-  padding: 0px;
-  margin: 0px;
 }
 
-.navbar a{
-  list-style-type: none;
-  background-color: aquamarine;
-  padding: 0px;
-  margin: 0px;
+li a{
+  display: inline;
+  color:#f9f9f9
+  text-align: center;
+  padding:14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color:#000000;
 }
 
 p {
