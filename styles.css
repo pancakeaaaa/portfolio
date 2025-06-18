@@ -66,7 +66,7 @@ nav ul {
   margin: 0;
   padding: 0 1vw 0 0;
   display: flex;
-  font-size: 28px;
+  font-size: 45px;
   font-weight: 100;
   list-style: none;
   width: 100%;
@@ -85,7 +85,7 @@ nav ul li a {
   font-family: 'Avara_Bold', Arial, sans-serif;
   padding: 0 40px;
   text-decoration: none;
-  font-size: 36px;
+  font-size: 45px;
   line-height: 1;
   height: 100px;
   color: black;
