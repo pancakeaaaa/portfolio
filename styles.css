@@ -17,7 +17,12 @@ h1 {
   font-size: 2em;
   font-family: 'Velvelyne', Arial, sans-serif;
 }
-
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 li{
   position:fixed;
   padding: 14px;
@@ -27,7 +32,7 @@ li a{
   display: inline;
   color:#f9f9f9
   text-align: center;
-  padding:14px 16px;
+  padding: 14px;
   text-decoration: none;
 }
 
