@@ -26,8 +26,8 @@ nav ul {
   letter-spacing: 0.5px;
   transform: rotate(0deg);
   margin: 0;
-  padding-left: 0px;
-  padding-right: 0px;
+  padding-left: 0px !important;
+  padding-right: 0px !important;
   padding-top: 10px;
   padding-bottom: 10px;
   background-color: transparent !important;
