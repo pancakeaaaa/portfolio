@@ -62,13 +62,14 @@ nav ul li {
 }
 
 nav ul li a {
-  display: flex;            
-  align-items: center;    
-  text-decoration: none;
+  display: flex;
+  align-items: center;
   font-family: 'Avara_Bold', Arial, sans-serif;
   padding: 0.5vw 1vw;
+  text-decoration: none;
+  font-size: 20px;
   line-height: 1;
-  height: 100%;
+  width: auto;
 }
 
 nav ul li a:link,
