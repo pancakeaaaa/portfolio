@@ -27,8 +27,11 @@
 }
 
 .hiero {
-  font-family: 'Segoe UI Symbol', 'Noto Sans Egyptian Hieroglyphs', Arial, sans-serif;
-  margin-right: 8px; /* optional spacing */
+  font-family: 'Noto Sans Egyptian Hieroglyphs', 'Segoe UI Symbol', 'Segoe UI Historic', sans-serif;
+  font-size: 45px; /* match your nav font size */
+  margin-right: 10px;
+  display: inline-flex;
+  align-items: center;
 }
 
 .title {
