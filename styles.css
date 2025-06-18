@@ -44,11 +44,11 @@ nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display:flex;
-  font-size: 2vw;
+  font-size: 28px;
   font-weight: 100;
   z-index: 50;
   margin: 0px;
-  padding-left: 1vw !important;
+  padding-left: 0 !important;
   padding-right: 1vw !important;
   padding-top: 10px;
   padding-bottom: 10px;
@@ -67,7 +67,7 @@ nav ul li a {
   font-family: 'Avara_Bold', Arial, sans-serif;
   padding: 0.5vw 1vw;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 28px;
   line-height: 1;
   width: auto;
 }
