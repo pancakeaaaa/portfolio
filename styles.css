@@ -28,7 +28,7 @@
 
 nav ul li a .hiero {
   font-family: 'SomeHieroglyphFont', serif; /* your hiero font */
-  font-size: 30px;
+  font-size: 36px;
   line-height: 1;
   vertical-align: middle; /* helps inline */
   margin-right: 8px; /* spacing */
@@ -94,7 +94,7 @@ nav ul li {
   align-items: flex-start;
   height: auto;
   margin-top: 5px;
-  margin-right: 30px;
+  margin-right: 0px;
 }
 
 nav ul li a {
@@ -104,6 +104,7 @@ nav ul li a {
   font-family: 'Avara_Bold', Arial, sans-serif;
   padding-bottom: 0px;
   padding-top: 5px; 
+  padding-right: 30px;
   margin: 0px;
   text-decoration: none;
   font-size: 30px !important;
