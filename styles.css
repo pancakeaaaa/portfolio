@@ -41,7 +41,7 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   text-decoration: none;
-  padding: 10px 10vw;
+  padding: 5px 5vw;
 }
 
 nav ul li a:link,
