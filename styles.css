@@ -85,7 +85,7 @@ nav ul li a {
   font-family: 'Avara_Bold', Arial, sans-serif;
   padding: 0 40px;
   text-decoration: none;
-  font-size: 45px;
+  font-size: 45px; !important
   line-height: 1;
   height: 100px;
   color: black;
