@@ -39,22 +39,17 @@ h1 {
   font-size: 2em;
   font-family: 'Velvelyne', Arial, sans-serif;
 }
-nav ul {
+ ul {
   position: fixed;
-  top: 0px; 
-  left: 0px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display:flex;
+  top: 0;
+  left: 0; /* <-- THIS anchors it to the left edge */
+  display: flex;
   font-size: 28px;
   font-weight: 100;
   z-index: 50;
-  margin: 0px;
-  padding-left: 0 !important;
-  padding-right: 1vw !important;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: transparent !important;
+  margin: 0;
+  padding: 10px 1vw 10px 0;
+  background-color: transparent;
   width: 100%;
 }
 
