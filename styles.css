@@ -77,8 +77,9 @@ nav ul {
 nav ul li {
   display: flex;
   align-items: flex-start;
-  height: 100%;
+  height: auto;
   margin: 0;
+  margin-right: 30px;
 }
 
 nav ul li a {
@@ -92,7 +93,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 45px !important;
   line-height: 1;
-  height: 100%;
+  height: auto;
   color: black;
 }
 
