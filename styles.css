@@ -9,7 +9,6 @@ body {
   background-color: #f9f9f9; 
   font-family: 'Velvelyne', Arial, sans-serif;
   color: #333;
-  padding-top: 60px;
 }
 
 h1 {
@@ -28,7 +27,7 @@ nav ul {
   transform: rotate(0deg);
   margin: 0;
   padding: 10px;
-  background-color: white; /* optional: keeps it visible */
+  background-color: transparent; /* optional: keeps it visible */
   width: 100%;
 }
 
