@@ -40,13 +40,13 @@ h1 {
 }
 nav ul {
   position: fixed;
-  top: 0px; 
-  display: flex;
+  top: -1.7vw; 
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display:flex;
   font-size: 3.7vw;
   font-weight: 100;
   z-index: 50;
-  letter-spacing: 0.5px;
-  transform: rotate(0deg);
   margin: 0px;
   padding-left: 1vw !important;
   padding-right: 1vw !important;
@@ -65,7 +65,7 @@ nav ul li a {
   text-decoration: none;
   text-align:left;
   width:100%;
-  padding: 5%;
+  padding: 5px;
   font-family:'Avara_Bold', Arial, sans-serif;
 }
 
