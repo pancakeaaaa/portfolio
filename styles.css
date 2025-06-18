@@ -26,23 +26,20 @@
     font-style: normal;
 }
 
-body{
-  padding-top: 100px;
-  margin: 0 20px;
-}
-
-html, body{
+html, body {
   margin: 0;
   padding: 0;
   height: 100%;
 }
 
-body, nav ul {
+nav ul {
   margin: 0;
   padding: 0;
-  background-color: transparent;
-  font-family: 'Velvelyne', Arial, sans-serif;
-  color: #333;
+}
+
+body {
+  padding-top: 100px; /* or whatever your navbar height is */
+  margin: 0 20px;     /* optional: margin for left/right spacing */
 }
 
 h1 {
