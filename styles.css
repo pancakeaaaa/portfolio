@@ -27,7 +27,7 @@ nav ul {
   transform: rotate(0deg);
   margin: 0;
   padding: 10px;
-  background-color: transparent; /* optional: keeps it visible */
+  background-color: transparent !important;
   width: 100%;
 }
 
