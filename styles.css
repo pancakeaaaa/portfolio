@@ -30,7 +30,8 @@ body {
   background-color:transparent; 
   font-family: 'Velvelyne', Arial, sans-serif;
   color: #333;
-  padding:5px;
+  padding:0px;
+  margin:0px;
 }
 
 h1 {
@@ -40,7 +41,8 @@ h1 {
 }
 nav ul {
   position: fixed;
-  top: 0vw; 
+  top: 0px; 
+  left: 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display:flex;
