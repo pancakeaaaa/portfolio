@@ -40,7 +40,7 @@ h1 {
 }
 nav ul {
   position: fixed;
-  top: -1.7vw; 
+  top: 0vw; 
   display: -webkit-box;
   display: -ms-flexbox;
   display:flex;
