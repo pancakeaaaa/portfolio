@@ -93,7 +93,7 @@ nav ul li {
   display: flex;
   align-items: flex-start;
   height: auto;
-  margin-top: 5px;
+  margin-top: 0px;
   margin-right: 0px;
 }
 
@@ -102,10 +102,8 @@ nav ul li a {
   align-items: center; 
   justify-content: flex-start; 
   font-family: 'Avara_Bold', Arial, sans-serif;
-  padding-bottom: 0px;
-  padding-top: 5px; 
-  padding-right: 30px;
-  margin: 0px;
+  padding: 5px 30px 0 0;
+  margin: 0;
   text-decoration: none;
   font-size: 40px !important;
   line-height: 1;
