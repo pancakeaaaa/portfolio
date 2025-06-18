@@ -82,7 +82,7 @@ nav ul {
   padding: 0;
   width: 100%;
   display: flex;
-  font-size: 45px;
+  font-size: 40px;
   font-weight: 100;
   list-style: none;
   align-items: flex-start; /* align items to the top, not center */
@@ -106,7 +106,7 @@ nav ul li a {
   padding-top: 5px; 
   margin: 0px;
   text-decoration: none;
-  font-size: 45px !important;
+  font-size: 40px !important;
   line-height: 1;
   height: auto;
   color: black;
