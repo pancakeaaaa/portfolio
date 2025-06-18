@@ -27,16 +27,16 @@
 }
 
 .hiero {
-  font-family: 'Noto Sans Egyptian Hieroglyphs', 'Segoe UI Symbol', 'Segoe UI Historic', sans-serif;
-  font-size: 38px; /* match the text size visually */
-  margin-right: 8px; /* spacing between glyph and text */
+  font-family: 'Noto Sans Egyptian Hieroglyphs', 'Segoe UI Historic', sans-serif;
+  font-size: 40px;
+  margin-right: 10px;
   line-height: 1;
   display: inline-block;
 }
 
 .title {
   font-family: 'Avara_Bold', Arial, sans-serif;
-  font-size: 38px;
+  font-size: 40px;
   line-height: 1;
 }
 
@@ -97,7 +97,7 @@ nav ul li {
 }
 
 nav ul li a {
-  display: block;
+  display: flex;
   align-items: center; 
   justify-content: flex-start; 
   font-family: 'Avara_Bold', Arial, sans-serif;
