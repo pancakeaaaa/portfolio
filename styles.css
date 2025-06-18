@@ -26,6 +26,15 @@
     font-style: normal;
 }
 
+.hiero {
+  font-family: 'Segoe UI Symbol', 'Noto Sans Egyptian Hieroglyphs', Arial, sans-serif;
+  margin-right: 8px; /* optional spacing */
+}
+
+.title {
+  font-family: 'Avara_Bold', Arial, sans-serif;
+}
+
 html, body {
   margin: 0;
   padding: 0;
