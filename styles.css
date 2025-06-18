@@ -26,6 +26,11 @@
     font-style: normal;
 }
 
+body{
+  padding-top: 100px;
+  margin: 0 20px;
+}
+
 html, body{
   margin: 0;
   padding: 0;
