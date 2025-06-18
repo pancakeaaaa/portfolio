@@ -32,6 +32,7 @@ nav ul li a .hiero {
   line-height: 1;
   vertical-align: middle; /* helps inline */
   margin-right: 8px; /* spacing */
+  transform: translateY(2px);
 }
 
 nav ul li a .title {
