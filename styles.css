@@ -40,6 +40,15 @@ h1 {
   font-family: 'Velvelyne', Arial, sans-serif;
 }
 
+nav {
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
 nav ul {
   position: fixed;
   top: 0;
@@ -52,20 +61,15 @@ nav ul {
   padding: 10px 1vw 10px 0;
   background-color: transparent;
   width: 100%;
-}
-
-nav {
-  margin: 0;
-  padding: 0;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  height: 60px; /* set an explicit height */
+  align-items: stretch; /* stretches children to full height */
 }
 
 nav ul li {
   list-style: none;
   align-items: center;
+  height: 100%;
+  display: flex;
 }
 
 nav ul li a {
