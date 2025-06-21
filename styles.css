@@ -40,6 +40,10 @@
   font-style:normal;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 nav ul li a .hiero {
   font-family: 'Noto-Sans-Egyptian-Hieroglyphs', serif; 
   font-size: 30px !important;
@@ -47,7 +51,6 @@ nav ul li a .hiero {
   vertical-align: middle; 
   margin-right: 8px;
   top: 1px;
-  transform: translateY(2px);
 }
 
 nav ul li a .title {
@@ -109,7 +112,7 @@ nav ul {
 nav ul li {
   display: flex;
   align-items: flex-start;
-  height: auto;
+  height: 100px;
   margin-top: 0px;
   margin-right: 0px;
 }
@@ -124,7 +127,7 @@ nav ul li a {
   text-decoration: none;
   font-size: 40px !important;
   line-height: 1;
-  height: auto;
+  height: 100px;
   color: black;
   flex-shrink: 0;
 }
@@ -137,9 +140,6 @@ nav ul li a:hover {
   background-color: #30e047 !important;
   color: white;
   height: auto;
-  padding-top: 5px;
-  padding-bottom: 0;
-  margin: 0;
 }
 
 nav ul li a:active {
