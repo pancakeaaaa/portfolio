@@ -181,8 +181,19 @@ h2, h3 {
   font-family: 'Velvelyne', Arial, sans-serif;
 }
 
-.bio-text {
+.bio-container {
+  width: 100%; 
+  overflow: hidden; 
+  position: relative;
+}
+
+.bio-text, .bio-heading {
   float: right;
+  clear: both; 
+  margin-bottom: 20px; 
+}
+
+.bio-text {
   width: 350px;
   padding: 10px 15px;
   font-family: 'Inclusive Sans', Arial, sans-serif;
@@ -193,10 +204,7 @@ h2, h3 {
   margin-right: 40px;
 }
 
-.bio-heading{
-  float:right;
-  top: 400px;
-  right: 70px;
+.bio-heading {
   width: 200px;
   padding: 10px 15px;
   font-family: 'Teranoptia', Arial, sans-serif;
@@ -204,19 +212,7 @@ h2, h3 {
   line-height: 1.4;
   color: black;
   border-radius: 8px;
-  z-index: 1000; 
-}
-
-.bio-contact{
-  position:static;
-  top: 150px;
-  right: 35px;
-  width:200px;
-  padding: 10px 15px;
-  font-family: 'Inclusive Sans', Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1;
-  color: black;
+  z-index: 1000;
 }
 
 a{
