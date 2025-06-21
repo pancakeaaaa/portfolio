@@ -155,7 +155,7 @@ h2, h3 {
 
 .bio-text {
   position:fixed;
-  top: 75px;
+  top: 120px;
   right: 40px;
   width: 200px;
   padding: 10px 15px;
@@ -170,12 +170,12 @@ h2, h3 {
 
 .bio-heading{
   position:fixed;
-  top: 65px;
+  top: 100px;
   right: 60px;
   width: 200px;
   padding: 10px 15px;
   font-family: 'Teranoptia', Arial, sans-serif;
-  font-size: 20px;
+  font-size: 40px;
   line-height: 1.4;
   color: black;
   background-color: white;  
