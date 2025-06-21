@@ -182,7 +182,7 @@ h2, h3 {
 }
 
 .bio-text {
-  position:fixed;
+  position:static;
   top: 120px;
   right: 40px;
   width: 350px;
