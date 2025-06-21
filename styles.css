@@ -86,7 +86,6 @@ nav {
 }
 
 
-
 nav ul {
   margin: 0;
   padding: 0;
@@ -95,7 +94,7 @@ nav ul {
   font-size: 40px;
   font-weight: 100;
   list-style: none;
-  align-items: flex-start; /* align items to the top, not center */
+  align-items: flex-start; 
 }
 
 
@@ -123,7 +122,8 @@ nav ul li a {
 }
 
 nav ul li:last-child a {
-  padding-right: 0; 
+  padding-right: 0;
+}
 
 nav ul li a:hover {
   background-color: #30e047 !important;
@@ -156,7 +156,7 @@ h2, h3 {
   font-size: 16px;
   line-height: 1.4;
   color: black;
-  background-color: white;  /* Add this to test visibility */
+  background-color: white;  
   border-radius: 8px;
-  z-index: 1000; /* Make sure it's on top */
+  z-index: 1000; 
 }
