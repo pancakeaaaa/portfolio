@@ -182,10 +182,7 @@ h2, h3 {
 }
 
 .bio-text {
-  display: flex;
-  justify-content: flex-start;
-  top: 120px;
-  right: 40px;
+  float: right;
   width: 350px;
   padding: 10px 15px;
   font-family: 'Inclusive Sans', Arial, sans-serif;
@@ -193,12 +190,11 @@ h2, h3 {
   line-height: 1.4;
   color: black;
   border-radius: 8px;
-  z-index: 1000; 
+  margin-right: 40px;
 }
 
 .bio-heading{
-  display: flex;
-  justify-content: flex-start;
+  float:right;
   top: 400px;
   right: 70px;
   width: 200px;
