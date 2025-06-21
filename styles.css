@@ -92,8 +92,9 @@ nav {
   padding: 0;
   background-color: transparent; 
   display: flex;
-  align-items: center; 
+  align-items: flex-star; 
   z-index: 50;
+  justify-content: flex-start;
 }
 
 
@@ -119,7 +120,7 @@ nav ul li {
 
 nav ul li a {
   display: flex;
-  align-items: center; 
+  align-items: flex-start; 
   justify-content: flex-start; 
   font-family: 'Avara_Bold', Arial, sans-serif;
   font-size: 40px !important;
@@ -129,6 +130,7 @@ nav ul li a {
   margin: 0;
   text-decoration: none;
   color: black;
+  background-color: transparent;
   flex-shrink: 0;
   font-weight: normal;
   backface-visibility: hidden;
