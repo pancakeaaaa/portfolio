@@ -149,7 +149,7 @@ nav ul li a::before {
   background: #30e047;
   z-index: -1;
   opacity: 0;
-  transition: opacity 0.2s ease;
+  transition: opacity 0.01s ease;
 }
 
 
