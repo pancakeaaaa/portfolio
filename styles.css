@@ -34,7 +34,7 @@
 }
 
 @font-face{
-  font-family: 
+  font-family: 'Teranoptia';
   src:url('../portfolio/fonts/Teranoptia-Furiae.woff2') format('woff2');
   font-weight: normal;
   font-style:normal;
@@ -168,12 +168,12 @@ h2, h3 {
 }
 
 .bio-heading{
-  top: 75px;
+  top: 65px;
   right: 60px;
   width: 200px;
   padding: 10px 15px;
-  font-family: 'Terantopia', Arial, sans-serif;
-  font-size: 16px;
+  font-family: 'Teranoptia', Arial, sans-serif;
+  font-size: 20px;
   line-height: 1.4;
   color: black;
   background-color: white;  
