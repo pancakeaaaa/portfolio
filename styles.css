@@ -108,9 +108,9 @@ nav ul {
 }
 
 nav ul li {
-  flex: 1; /* Distribute space evenly */
   display: flex;
   align-items: stretch;
+  white-space: nowrap;
 }
 
 nav ul li a {
