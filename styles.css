@@ -115,8 +115,8 @@ nav ul li {
 
 nav ul li a {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-start;
+  justify-content: flex-start;
   font-family: 'Avara_Bold', Arial, sans-serif;
   font-size: 40px !important;
   line-height: 1;
@@ -135,7 +135,7 @@ nav ul li a::before {
   position: absolute;
   top: 0;
   left: 0;
-  height: 100%;
+  inset: 0;
   width: 100%;
   background: #30e047;
   z-index: -1;
