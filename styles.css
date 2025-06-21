@@ -182,26 +182,12 @@ h2, h3 {
 }
 
 .bio-container {
-  width: 100%; 
-  overflow: hidden; 
-  position: relative;
-}
-
-.bio-text, .bio-heading {
-  float: right;
-  clear: both; 
-  margin-bottom: 20px; 
-}
-
-.bio-text {
-  width: 350px;
-  padding: 10px 15px;
-  font-family: 'Inclusive Sans', Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.4;
-  color: black;
-  border-radius: 8px;
-  margin-right: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; /* align content to the right */
+  width: 100%;
+  padding-right: 40px;
+  margin-top: 120px; /* to avoid nav overlap */
 }
 
 .bio-heading {
@@ -212,7 +198,17 @@ h2, h3 {
   line-height: 1.4;
   color: black;
   border-radius: 8px;
-  z-index: 1000;
+  margin-bottom: 10px;
+}
+
+.bio-text {
+  width: 350px;
+  padding: 10px 15px;
+  font-family: 'Inclusive Sans', Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: black;
+  border-radius: 8px;
 }
 
 a{
