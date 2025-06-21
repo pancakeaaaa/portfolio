@@ -43,7 +43,7 @@ nav ul li a .hiero {
 }
 
 nav ul li a .title {
-  font-family: 'Avara_Regluar', Arial, sans-serif;
+  font-family: 'Avara_Bold', Arial, sans-serif;
   font-size: 40px;
   line-height: 1;
 }
@@ -110,7 +110,7 @@ nav ul li a {
   display: flex;
   align-items: center; 
   justify-content: flex-start; 
-  font-family: 'Avara_Regular', Arial, sans-serif;
+  font-family: 'Avara_Bold', Arial, sans-serif;
   padding: 5px 38px 0 0; 
   margin: 0;
   text-decoration: none;
