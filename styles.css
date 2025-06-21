@@ -139,7 +139,6 @@ nav ul li:last-child a {
 nav ul li a:hover {
   background-color: #30e047 !important;
   color: white;
-  height: auto;
 }
 
 nav ul li a:active {
