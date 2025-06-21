@@ -121,8 +121,7 @@ nav ul li a {
 }
 
 nav ul li:last-child a {
-  padding-right: 0; /* removes the gap on the last item */
-}
+  padding-right: 0; 
 
 nav ul li a:hover {
   background-color: #30e047 !important;
@@ -155,5 +154,7 @@ h2, h3 {
   font-size: 16px;
   line-height: 1.4;
   color: black;
+  background-color: white;  /* Add this to test visibility */
   border-radius: 8px;
+  z-index: 1000; /* Make sure it's on top */
 }
