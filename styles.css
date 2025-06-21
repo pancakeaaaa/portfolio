@@ -65,6 +65,7 @@ html, body {
   padding: 0;
   width: 100vw;
   overflow-x: hidden; 
+  background-color: #d498c5; 
 }
 
 nav ul {
