@@ -154,6 +154,7 @@ h2, h3 {
 }
 
 .bio-text {
+  position:fixed;
   top: 75px;
   right: 40px;
   width: 200px;
@@ -168,6 +169,7 @@ h2, h3 {
 }
 
 .bio-heading{
+  position:fixed;
   top: 65px;
   right: 60px;
   width: 200px;
