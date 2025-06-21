@@ -163,7 +163,6 @@ h2, h3 {
   font-size: 16px;
   line-height: 1.4;
   color: black;
-  background-color: white;  
   border-radius: 8px;
   z-index: 1000; 
 }
@@ -178,7 +177,6 @@ h2, h3 {
   font-size: 40px;
   line-height: 1.4;
   color: black;
-  background-color: white;  
   border-radius: 8px;
   z-index: 1000; 
 }
