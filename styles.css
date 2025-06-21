@@ -117,12 +117,12 @@ nav ul li {
   align-items: flex-start;
   height: 100px;
   margin-top: 0px;
-  margin-right: 20px;
+  margin-right: 0px;
 }
 
 nav ul li a {
-  display: inline-block;
-  align-items: flex-start; 
+  display: flex;
+  align-items: center; 
   justify-content: flex-start; 
   font-family: 'Avara_Bold', Arial, sans-serif;
   font-size: 40px !important;
@@ -146,6 +146,7 @@ nav ul li:last-child a {
 nav ul li a:hover {
   background-color: #30e047 !important;
   color: white;
+
 }
 
 nav ul li a:active {
@@ -175,7 +176,7 @@ h2, h3 {
 }
 
 .bio-heading{
-  position:fixed;
+  position:static;
   top: 400px;
   right: 70px;
   width: 200px;
@@ -189,7 +190,7 @@ h2, h3 {
 }
 
 .bio-contact{
-  position:fixed;
+  position:static;
   top: 150px;
   right: 35px;
   width:200px;
