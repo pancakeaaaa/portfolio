@@ -138,3 +138,15 @@ h2, h3 {
   font-family: 'Velvelyne', Arial, sans-serif;
 }
 
+.bio {
+  position: fixed;
+  top: 75px;
+  right: 40px;
+  width: 200px;
+  padding: 10px 15px;
+  font-family: 'Velveldyne' Arial, Sanserif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #0000;
+  border-radius: 8px;
+}
