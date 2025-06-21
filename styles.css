@@ -167,8 +167,6 @@ nav ul li:last-child a {
 nav ul li a:hover {
   background-color: #30e047 !important;
   color: white;
-  padding: 3px 0 0 0;
-
 }
 
 nav ul li a:active {
