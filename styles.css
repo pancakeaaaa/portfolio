@@ -47,6 +47,7 @@
 nav ul li a .hiero {
   font-family: 'Noto-Sans-Egyptian-Hieroglyphs', serif; 
   font-size: 30px !important;
+  display:inline-block;
   line-height: 1;
   vertical-align: middle; 
   margin-right: 8px;
@@ -92,7 +93,7 @@ nav {
   padding: 0;
   background-color: transparent; 
   display: flex;
-  align-items: flex-star; 
+  align-items: flex-start; 
   z-index: 50;
   justify-content: flex-start;
 }
@@ -115,11 +116,11 @@ nav ul li {
   align-items: flex-start;
   height: 100px;
   margin-top: 0px;
-  margin-right: 0px;
+  margin-right: 20px;
 }
 
 nav ul li a {
-  display: flex;
+  display: inline-block;
   align-items: flex-start; 
   justify-content: flex-start; 
   font-family: 'Avara_Bold', Arial, sans-serif;
