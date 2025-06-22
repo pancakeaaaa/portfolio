@@ -68,6 +68,13 @@ html, body {
   background-color: #d498c5; 
 }
 
+ol{
+  font-family: 'Inclusive Sans', Arial, sans-serif;
+  margin: 0 10vw 0 10vw;
+  line-height:normal;
+  font-size: 15px;
+}
+
 nav ul {
   margin: 0;
   padding: 0;
@@ -167,7 +174,6 @@ nav ul li a span {
   margin: 0;
   padding: 0;
 }
-
 
 p {
   line-height: 1.6;
