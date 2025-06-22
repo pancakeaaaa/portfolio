@@ -44,9 +44,8 @@
   box-sizing: border-box;
 }
 
-body, p, h1, h2, h3, ol {
+body, h1, h2, h3, ol {
   word-wrap: break-word;
-  overflow-wrap: break-word;
   max-width: auto;
 }
 
@@ -130,6 +129,8 @@ nav ul li a .title {
 
 p {
   line-height: 1.6;
+  word-wrap: break-word;
+  margin:
 }
 
 h2, h3 {
