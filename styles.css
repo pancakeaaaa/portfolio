@@ -109,13 +109,13 @@ nav ul {
 
 nav ul li {
   display: flex;
-  align-items: stretch;
+  align-items: center;
   white-space: nowrap;
 }
 
 nav ul li a {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   font-family: 'Avara_Bold', Arial, sans-serif;
   font-size: 40px !important;
@@ -153,9 +153,7 @@ nav ul li a:hover {
 
 nav ul li a:active {
   background-color: #30e047;
-  height: 100px;
 }
-
 
 p {
   line-height: 1.6;
