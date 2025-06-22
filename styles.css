@@ -153,6 +153,7 @@ nav ul li a:hover {
 
 nav ul li a:active {
   background-color: #30e047;
+  height: 100px;
 }
 
 
@@ -198,4 +199,5 @@ a{
   font-family:'Inclusive Sans';
   text-decoration:underline;
   font-weight: 700;
+  color: black;
 }
