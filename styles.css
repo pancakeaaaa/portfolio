@@ -52,13 +52,14 @@ body, p, h1, h2, h3, ol {
 
 
 body {
-  padding-top: 100px;
-  max-width: 1200px;
+  max-width: 60vw;
   margin: 0 auto;
-  padding-left: 40px;
-  padding-right: 40px;
-  text-align: justify;
+  padding: 0 1rem;
+  box-sizing: border-box;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
+
 
 ol {
   font-family: 'Inclusive Sans', Arial, sans-serif;
@@ -78,7 +79,7 @@ h1 {
 nav {
   position: fixed;
   top: -1.7vw;
-  left: -1.7vw;
+  left: -4vw;
   width: 100vw;
   height: 100px;
   margin: 0;
@@ -98,7 +99,7 @@ nav ul {
   align-items: center;
   width: 100%;
   height: 100%;
-  gap: 1vw; /* Small gap between buttons */
+  gap: 0;
 }
 
 nav ul li {
@@ -138,6 +139,7 @@ nav ul li a:hover::before {
 
 nav ul li a:hover {
   color: white;
+  padding:  0.4em 0.8em;
 }
 
 nav ul li a .hiero {
