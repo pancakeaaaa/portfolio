@@ -47,17 +47,7 @@
 body, p, h1, h2, h3, ol {
   word-wrap: break-word;
   overflow-wrap: break-word;
-  max-width: 100%;
-}
-
-
-body {
-  max-width: 60vw;
-  margin: 0 auto;
-  padding: 0 1rem;
-  box-sizing: border-box;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  max-width: auto;
 }
 
 
@@ -78,12 +68,11 @@ h1 {
 
 nav {
   position: fixed;
-  top: -1.7vw;
-  left: -4vw;
+  top: -2vw;
+  left: -7.6vw;
   width: 100vw;
   height: 100px;
   margin: 0;
-  padding: 0;
   display: flex;
   align-items: center;
   z-index: 100;
@@ -95,7 +84,7 @@ nav ul {
   padding: 0;
   list-style: none;
   display: flex;
-  justify-content: center; /* Center horizontally */
+  justify-content: center; 
   align-items: center;
   width: 100%;
   height: 100%;
@@ -109,38 +98,21 @@ nav ul li {
 }
 
 nav ul li a {
-  position: relative;
   display: inline-block;
-  font-family: 'Avara_Bold', Arial, sans-serif;
-  font-size: 32px;
-  line-height: 1;
-  padding: 0.4em 0.8em;
   text-decoration: none;
+  padding: 6px 1vw 4px; /* top, left/right, bottom */
+  margin: 0;
   color: black;
-  z-index: 1;
+  background-color: transparent;
 }
 
-nav ul li a::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+nav ul li a:hover,
+nav ul li a:active {
   background-color: #30e047;
-  z-index: -1;
-  opacity: 0;
-  transition: opacity 0.15s ease-in-out;
-}
-
-nav ul li a:hover::before {
-  opacity: 1;
-}
-
-nav ul li a:hover {
   color: white;
-  padding:  0.4em 0.8em;
+  
 }
+
 
 nav ul li a .hiero {
   font-family: 'Noto-Sans-Egyptian-Hieroglyphs', serif; 
