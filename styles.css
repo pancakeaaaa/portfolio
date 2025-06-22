@@ -112,12 +112,13 @@ nav ul li {
   height: 100%;
   align-items: center;
   white-space: nowrap;
+  flex: 1;
 }
 
 nav ul li a {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: center;
   font-family: 'Avara_Bold', Arial, sans-serif;
   font-size: 40px !important;
   line-height: 1;
@@ -125,8 +126,8 @@ nav ul li a {
   color: black;
   background-color: transparent;
   font-weight: normal;
-  width: auto;
   height: 100%;
+  width: 100%;
   padding: 0 20px;
   position: relative;
   z-index: 1;
@@ -156,7 +157,6 @@ nav ul li a:hover {
 
 nav ul li a:active {
   background-color: #30e047;
-  height: 100px;
 }
 
 nav ul li a span {
