@@ -109,13 +109,14 @@ nav ul {
 
 nav ul li {
   display: flex;
-  align-items: stretch;
+  height: 100%;
+  align-items: center;
   white-space: nowrap;
 }
 
 nav ul li a {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: flex-start;
   font-family: 'Avara_Bold', Arial, sans-serif;
   font-size: 40px !important;
@@ -124,7 +125,8 @@ nav ul li a {
   color: black;
   background-color: transparent;
   font-weight: normal;
-  width: 100%;
+  width: auto;
+  height: 100%;
   padding: 0 20px;
   position: relative;
   z-index: 1;
