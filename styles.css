@@ -44,13 +44,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  margin: 0;
-  padding: 0;
-  background-color: #d498c5;
-  overflow-x: hidden;
-}
-
 body, p, h1, h2, h3, ol {
   word-wrap: break-word;
   overflow-wrap: break-word;
@@ -69,7 +62,7 @@ body {
 
 ol {
   font-family: 'Inclusive Sans', Arial, sans-serif;
-  margin: 0 10vw 0 10vw;
+  margin: 10vw 10vw 0 10vw;
   line-height:normal;
   font-size: 35px;
   font-weight: 700;
@@ -84,43 +77,46 @@ h1 {
 
 nav {
   position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
+  top: -1.7vw;
+  left: -1.7vw;
+  width: 100vw;
   height: 100px;
+  margin: 0;
+  padding: 0;
   display: flex;
-  background-color: transparent;
-  z-index: 50;
+  align-items: center;
+  z-index: 100;
+  background-color: white;
 }
 
 nav ul {
-  list-style: none;
-  display: flex;
-  width: 100%;
-  height: 100%;
   margin: 0;
   padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  gap: 1vw; /* Small gap between buttons */
 }
 
 nav ul li {
-  flex: 1;
+  display: flex;
+  align-items: center;
   height: 100%;
 }
 
 nav ul li a {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  position: relative;
+  display: inline-block;
   font-family: 'Avara_Bold', Arial, sans-serif;
-  font-size: 40px;
+  font-size: 32px;
+  line-height: 1;
+  padding: 0.4em 0.8em;
   text-decoration: none;
   color: black;
-  width: 100%;
-  height: 100%;
-  position: relative;
   z-index: 1;
-  margin: 0;
-  padding: 0;
 }
 
 nav ul li a::before {
@@ -130,10 +126,10 @@ nav ul li a::before {
   left: 0;
   right: 0;
   bottom: 0;
-  background: #30e047;
+  background-color: #30e047;
   z-index: -1;
   opacity: 0;
-  transition: opacity 0.1s ease;
+  transition: opacity 0.15s ease-in-out;
 }
 
 nav ul li a:hover::before {
@@ -153,7 +149,7 @@ nav ul li a .hiero {
 
 nav ul li a .title {
   font-family: 'Inclusive Sans', Arial, sans-serif;
-  font-size: 40px;
+  font-size: 35px;
   line-height: 1;
 }
 
