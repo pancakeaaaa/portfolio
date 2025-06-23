@@ -28,7 +28,7 @@
 
 @font-face{
   font-family: 'Noto-Sans-Egyptian-Hieroglyphs';
-  src:url('../portfolio/fonts/NotoSansEgyptianHieroglyphs-Regular.woff2') format(woff2);
+  src:url('../portfolio/fonts/NotoSansEgyptianHieroglyphs-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style:normal;
 }
@@ -45,8 +45,20 @@
 }
 
 body, h1, h2, h3, ol {
-  word-wrap: break-word;
-  max-width: auto;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+p {
+  max-width: 100%;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  white-space: normal;
+  line-height: 1.6;
+}
+
+.bio-text, p {
+  max-width: 100%;
 }
 
 
@@ -124,12 +136,6 @@ nav ul li a .title {
   font-family: 'Inclusive Sans', Arial, sans-serif;
   font-size: 35px;
   line-height: 1;
-}
-
-
-p {
-  line-height: 1.6;
-  word-wrap: break-word;
 }
 
 h2, h3 {
