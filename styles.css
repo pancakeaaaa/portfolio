@@ -55,7 +55,7 @@ p {
   overflow-wrap: break-word;
   white-space: normal;
   line-height: 1.6;
-  margin: 20vw 20vw;
+  margin: 0 20vw;
   font-family: 'Inclusive Sans', Arial, sans-serif;
 }
 
