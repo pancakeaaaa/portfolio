@@ -55,12 +55,13 @@ p {
   overflow-wrap: break-word;
   white-space: normal;
   line-height: 1.6;
+  margin: 20vw 20vw;
+  font-family: 'Inclusive Sans', Arial, sans-serif;
 }
 
 .bio-text, p {
   max-width: 100%;
 }
-
 
 ol {
   font-family: 'Inclusive Sans', Arial, sans-serif;
@@ -111,7 +112,7 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   text-decoration: none;
-  padding: 6px 1vw 4px; /* top, left/right, bottom */
+  padding: 6px 1vw 4px;
   margin: 0;
   color: black;
   background-color: transparent;
