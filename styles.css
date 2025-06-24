@@ -49,6 +49,14 @@ body, h1, h2, h3, ol {
   word-break: break-word;
 }
 
+h1, h2, h3 {
+  color: black;
+  font-size: 2em;
+  font-weight: 700;
+  padding: 0 20vw;
+  font-family: 'Inclusive Sans', Arial, sans-serif;
+}
+
 p {
   max-width: 100%;
   word-break: break-word;
