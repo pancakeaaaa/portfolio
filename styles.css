@@ -149,10 +149,6 @@ nav ul li a .title {
   line-height: 1;
 }
 
-h2, h3 {
-  font-family: 'Velvelyne', Arial, sans-serif;
-}
-
 .bio-container {
   display: flex;
   flex-direction: column;
