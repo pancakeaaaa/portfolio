@@ -121,7 +121,6 @@ nav ul li a:active {
   
 }
 
-
 nav ul li a .hiero {
   font-family: 'Noto-Sans-Egyptian-Hieroglyphs', serif; 
   font-size: 30px !important;
@@ -165,7 +164,7 @@ h2, h3 {
   color: black;
 }
 
-.bio-text, p{
+.bio-text p{
   max-width: 60ch;
   padding: 10px 15px;
   margin: 0;
@@ -180,4 +179,8 @@ a{
   text-decoration:underline;
   font-weight: 700;
   color: black
+}
+
+.I_WANNA_FUCKING_SEE_A_LIBRARY, .#LAND, .FANFICS_TO_BOOKS, .OTHER_ZINES {
+  margin-left: 20vw;
 }
