@@ -84,6 +84,11 @@ h1 {
   font-weight: 700;
 }
 
+img {
+  padding: 0 18.8vw;
+  width: 100vw;
+}
+
 nav {
   position: fixed;
   top: -2vw;
