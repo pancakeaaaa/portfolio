@@ -57,6 +57,8 @@ p {
   line-height: 1.6;
   margin: 0 20vw;
   font-family: 'Inclusive Sans', Arial, sans-serif;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 ol {
