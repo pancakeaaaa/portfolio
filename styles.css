@@ -47,6 +47,7 @@
 body, h1, h2, h3, ol {
   overflow-wrap: break-word;
   word-break: break-word;
+  background: #f4edd0;
 }
 
 p {
@@ -63,7 +64,7 @@ p {
 
 ol {
   font-family: 'Inclusive Sans', Arial, sans-serif;
-  margin: 10vw 10vw 0 10vw;
+  padding: 7vw 22.5vw 0;
   line-height:normal;
   font-size: 35px;
   font-weight: 700;
@@ -91,15 +92,14 @@ img {
 
 nav {
   position: fixed;
-  top: -2vw;
-  left: -7.6vw;
+  top: -0.2vw;
   width: 100vw;
-  height: 100px;
+  height: 50px;
   margin: 0;
   display: flex;
   align-items: center;
   z-index: 100;
-  background-color: white;
+  background-color: 0000;
 }
 
 nav ul {
