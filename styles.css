@@ -196,9 +196,21 @@ a{
   margin-left: 20vw;
 }
 
-.brokeback-mountain-presentation {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
+.canva-container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9; /* Cleaner than padding-top trick */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  border: 3px solid #9b59b6; /* purple border */
+  border-radius: 12px;
+  overflow: hidden;
+  margin: 2em 0;
+  background-color: #fdf6f0;
+}
+
+.canva-container iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border: none;
 }
