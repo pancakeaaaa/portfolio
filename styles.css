@@ -107,8 +107,8 @@ h1 {
 }
 
 img {
-  padding: 0 18.8vw;
-  width: 100vw;
+  padding: 0 18.8vw 0 0;
+  width: 78vw;
 }
 
 nav {
