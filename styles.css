@@ -271,37 +271,77 @@ a{
   z-index: 9999;
 }
 
-.floating-animated {
+.floating-fish {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.fish {
   position: absolute;
-  width: 15vw;
+  animation: swim-left-right 18s linear infinite;
 }
 
-.animated-image-right {
-  width: 100%;
-  animation: swim-right 15s linear infinite;
+.reverse {
+  transform: scaleX(-1); /* Flip horizontally */
+  animation: swim-right-left 24s linear infinite;
 }
 
-.animated-image-left {
-  width: 100%;
-  transform: scaleX(-1); /* Flip image to face left */
-  animation: swim-left 12s linear infinite;
+/* Unique top and size for each fish */
+.fish-1 {
+  top: 10vh;
+  width: 10vw;
+  animation-duration: 20s;
 }
 
-@keyframes swim-right {
+.fish-2 {
+  top: 25vh;
+  width: 8vw;
+  animation-duration: 25s;
+}
+
+.fish-3 {
+  top: 40vh;
+  width: 6vw;
+  animation-duration: 18s;
+}
+
+.fish-4 {
+  top: 60vh;
+  width: 12vw;
+  animation-duration: 22s;
+}
+
+.fish-5 {
+  top: 75vh;
+  width: 7vw;
+  animation-duration: 19s;
+}
+
+/* Swim animations */
+@keyframes swim-left-right {
   0% {
-    transform: translateX(-120%);
+    left: -20vw;
+    opacity: 1;
+  }
+  90% {
+    left: 100vw;
+    opacity: 1;
   }
   100% {
-    transform: translateX(120%);
+    left: 100vw;
+    opacity: 0;
   }
 }
 
-@keyframes swim-left {
+@keyframes swim-right-left {
   0% {
-    transform: translateX(120%);
+    left: 100vw;
+    opacity: 1;
   }
-  100% {
-    transform: translateX(-120%);
-  }
-}
-
+  90% {
+    le
