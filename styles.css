@@ -230,3 +230,32 @@ a{
   padding-left: 1.5em;
   margin-bottom: 1em;
 }
+
+.floating-animated {
+  position: fixed;
+  top: 20vh;          /* adjust vertical position */
+  left: 0;            /* start at left edge */
+  width: 300px;       /* same as image width */
+  z-index: 9999;      /* above other elements */
+  pointer-events: auto; /* allow clicks on the link */
+}
+
+.animated-image {
+  width: 100%;
+  animation: slide-left-to-right 5s linear forwards;
+}
+
+@keyframes slide-left-to-right {
+  0% {
+    transform: translateX(-120%);
+    opacity: 1;
+  }
+  90% {
+    transform: translateX(120%);
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(120%);
+    opacity: 1;
+  }
+}
