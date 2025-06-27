@@ -111,6 +111,7 @@ img {
   width: 78vw;
 }
 
+
 nav {
   position: fixed;
   top: -0.2vw;
@@ -263,7 +264,7 @@ a{
 
 .animated-image {
   width: 100%;
-  animation: slide-left-to-right 5s linear forwards;
+  animation: slide-left-to-right 10s linear infinite;
 }
 
 @keyframes slide-left-to-right {
