@@ -47,7 +47,7 @@
 body, h1, h2, h3, ol {
   overflow-wrap: break-word;
   word-break: break-word;
-  background: #f4edd0;
+  background-color: #f4edd0;
 }
 
 p {
@@ -211,4 +211,10 @@ a{
   position: absolute;
   width: 60vw;
   border: none;
+}
+
+.home-images img {
+  position: sticky;
+  margin: 0;
+  width: 70%;
 }
