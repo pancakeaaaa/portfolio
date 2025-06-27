@@ -220,7 +220,13 @@ a{
   width: 72%;
 }
 
-.FO p{
+.FOURFANGS p{
   margin: 20vw;
   padding-bottom: 10px;
+}
+
+.mla-citation-list p {
+  text-indent: -1.5em;
+  padding-left: 1.5em;
+  margin-bottom: 1em;
 }
