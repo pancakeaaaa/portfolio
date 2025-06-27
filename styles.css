@@ -62,6 +62,27 @@ p {
   text-justify: inter-word;
 }
 
+#contents{
+  padding-top: 5vw;
+}
+#contents h1 + ol {
+  margin-top: 0;
+}
+
+#contents ol li{
+  font-weight: 400 !important;
+}
+
+#contents ol {
+  font-family: 'Inclusive Sans', Arial, sans-serif;
+  padding: 0 22.5vw;
+  padding-bottom: -10vw !important;
+  line-height: normal;
+  font-size: 20px;
+  font-weight: 200;
+  margin-top: 0;
+}
+
 ol {
   font-family: 'Inclusive Sans', Arial, sans-serif;
   padding: 7vw 22.5vw 0;
