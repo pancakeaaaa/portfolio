@@ -178,6 +178,12 @@ nav ul li a .title {
   margin-top: 120px;
 }
 
+.bio-container img{
+  padding: 0 20vw;
+  position: relative;
+  
+}
+
 .bio-heading {
   width: 200px;
   margin: 50 10vw;
@@ -257,7 +263,7 @@ a{
   position: fixed;
   top: 20vh;          /* adjust vertical position */
   left: 0;            /* start at left edge */
-  width: 300px;       /* same as image width */
+  width: 20vw;       /* same as image width */
   z-index: 9999;      /* above other elements */
   pointer-events: auto; /* allow clicks on the link */
 }
