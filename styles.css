@@ -214,8 +214,8 @@ a{
 }
 
 .home-images img {
-  position: fixed;
-  margin: -7vw 0;
+  position: relative;
+  margin: -15vw 0;
   padding-bottom: 10vw;
   width: 72%;
 }
