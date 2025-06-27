@@ -263,14 +263,6 @@ a{
   margin-bottom: 1em;
 }
 
-.fish-container {
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  pointer-events: none; /* So it doesn't block interactions */
-  z-index: 9999;
-}
-
 .floating-fish {
   position: fixed;
   top: 0;
