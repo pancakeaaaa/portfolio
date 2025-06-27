@@ -111,6 +111,10 @@ img {
   width: 78vw;
 }
 
+#FANFICS_TO_BOOKS img{
+  padding-left: 20vw;
+  width: 100%;
+}
 
 nav {
   position: fixed;
