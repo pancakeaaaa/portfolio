@@ -263,31 +263,45 @@ a{
   margin-bottom: 1em;
 }
 
-.floating-animated {
+.fish-container {
   position: fixed;
-  top: 20vh;          /* adjust vertical position */
-  left: 0;            /* start at left edge */
-  width: 20vw;       /* same as image width */
-  z-index: 9999;      /* above other elements */
-  pointer-events: auto; /* allow clicks on the link */
-}
-
-.animated-image {
   width: 100%;
-  animation: slide-left-to-right 10s linear infinite;
+  height: 100%;
+  pointer-events: none; /* So it doesn't block interactions */
+  z-index: 9999;
 }
 
-@keyframes slide-left-to-right {
+.floating-animated {
+  position: absolute;
+  width: 15vw;
+}
+
+.animated-image-right {
+  width: 100%;
+  animation: swim-right 15s linear infinite;
+}
+
+.animated-image-left {
+  width: 100%;
+  transform: scaleX(-1); /* Flip image to face left */
+  animation: swim-left 12s linear infinite;
+}
+
+@keyframes swim-right {
   0% {
     transform: translateX(-120%);
-    opacity: 1;
-  }
-  90% {
-    transform: translateX(120%);
-    opacity: 1;
   }
   100% {
     transform: translateX(120%);
-    opacity: 1;
   }
 }
+
+@keyframes swim-left {
+  0% {
+    transform: translateX(120%);
+  }
+  100% {
+    transform: translateX(-120%);
+  }
+}
+
