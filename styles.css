@@ -283,35 +283,41 @@ a{
   animation: swim-right-left 24s linear infinite;
 }
 
-/* Unique top and size for each fish */
+/* Unique fish styles */
 .fish-1 {
   top: 10vh;
+  left: -15vw;
   width: 10vw;
   animation-duration: 20s;
 }
 
 .fish-2 {
   top: 25vh;
+  left: -18vw;
   width: 8vw;
-  animation-duration: 25s;
+  animation-duration: 24s;
 }
 
 .fish-3 {
   top: 40vh;
+  left: 100vw;
   width: 6vw;
-  animation-duration: 18s;
+  animation-duration: 22s;
 }
 
 .fish-4 {
   top: 60vh;
+  left: 100vw;
   width: 12vw;
-  animation-duration: 22s;
+  animation-duration: 26s;
 }
 
+/* Optional additional fish */
 .fish-5 {
   top: 75vh;
+  left: -20vw;
   width: 7vw;
-  animation-duration: 19s;
+  animation-duration: 21s;
 }
 
 /* Swim animations */
@@ -336,4 +342,11 @@ a{
     opacity: 1;
   }
   90% {
-    le
+    left: -20vw;
+    opacity: 1;
+  }
+  100% {
+    left: -20vw;
+    opacity: 0;
+  }
+}
