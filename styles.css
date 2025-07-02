@@ -356,3 +356,12 @@ a{
     opacity: 0;
   }
 }
+
+#FANFICS_TO_BOOKS img{
+  width: 80vw !important;
+  height: auto;
+}
+
+#I_WANNA_FUCKING_SEE_A_LIBRARY img{
+  width: 58.9vw;
+}
