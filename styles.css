@@ -277,8 +277,7 @@ a{
   position: absolute;
   animation: swim-left-right 18s linear infinite;
   width: 10vw;
-  height: 10vh; /* ADD THIS */
-  background: red; /* JUST FOR TESTING */
+  height: 10vh;
 }
 
 .reverse {
