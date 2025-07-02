@@ -210,6 +210,15 @@ nav ul li a .title {
   padding: 2rem;
 }
 
+.text-art-2 {
+  position: relative;
+  z-index: 1;
+  margin-top: -25vw;
+  white-space: pre-wrap;
+  font-family: monospace;
+  padding: 2rem;
+}
+
 .bio-text {
   max-width: 60ch;
   padding: 10px 15px;
