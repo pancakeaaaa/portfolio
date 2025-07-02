@@ -198,6 +198,22 @@ nav ul li a .title {
   z-index: -1
 }
 
+.text-art-1 {
+  position: absolute;
+  top: 0;
+  left: -5vw;
+  width: 100%;
+  z-index: 0;
+  pointer-events: none;
+  white-space: pre-wrap;
+  font-family: monospace;
+  padding: 2rem;
+}
+
+html {
+  scroll-padding-top: 60px; 
+}
+
 .bio-text {
   max-width: 60ch;
   padding: 10px 15px;
@@ -367,12 +383,4 @@ a{
 #I_WANNA_FUCKING_SEE_A_LIBRARY img{
   padding-top: 1vw;
   width: 58.9vw;
-}
-
-.text-art-1, text-art-2 p{
-  z-index: -1;
-}
-
-html {
-  scroll-padding-top: 60px; 
 }
