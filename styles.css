@@ -367,3 +367,7 @@ a{
   padding-top: 1vw;
   width: 58.9vw;
 }
+
+.text-art p{
+  z-index: -1;
+}
