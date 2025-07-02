@@ -368,7 +368,7 @@ a{
   width: 58.9vw;
 }
 
-.text-art p{
+.text-art-1, text-art-2 p{
   z-index: -1;
 }
 
