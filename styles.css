@@ -210,6 +210,11 @@ nav ul li a .title {
   padding: 2rem;
 }
 
+.text-art-2 pre{
+  margin-top: -24vw;
+  z-index: -2;
+}
+
 html {
   scroll-padding-top: 60px; 
 }
@@ -310,24 +315,24 @@ a{
 }
 
 .fish-1 {
-  top: 50vh;
+  top: 30vh;
   left: -15vw;
-  width: 10vw;
+  width: 15vw;
   height: auto !important;
   animation-duration: 20s;
 }
 
 .fish-2 {
-  top: 60vh;
+  top: 10vh;
   left: -18vw;
-  width: 8vw;
+  width: 14vw;
   animation-duration: 24s;
 }
 
 .fish-3 {
-  top: 40vh;
+  top: 60vh;
   left: 100vw;
-  width: 10vw;
+  width: 18vw;
   animation-duration: 22s;
 }
 
