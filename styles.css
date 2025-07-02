@@ -319,7 +319,6 @@ a{
   animation-duration: 21s;
 }
 
-/* Swim animations */
 @keyframes swim-left-right {
   0% {
     left: -20vw;
