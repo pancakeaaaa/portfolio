@@ -416,7 +416,7 @@ body {
   padding: 20px;
 }
 
-#contents, nav, div {
+#contents, div {
   position: relative;
   z-index: 1;
 }
