@@ -252,9 +252,10 @@ a{
   width: 72%;
 }
 
-.FOURFANGS p{
-  margin: 20vw;
-  padding-bottom: 10px;
+#FOURFANGS p{
+  margin: 0 20vw;
+  padding-bottom: 1vw;
+  text-indent: 2em;
 }
 
 .mla-citation-list p {
