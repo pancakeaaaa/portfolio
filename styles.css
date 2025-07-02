@@ -106,7 +106,7 @@ h1 {
   font-family: 'Inclusive Sans', Arial, sans-serif;
 }
 
-img {
+.home-images img {
   padding: 0 18.8vw 0 0;
   width: 78vw;
 }
@@ -275,25 +275,32 @@ a{
 
 .fish {
   position: absolute;
-  animation: swim-left-right 18s linear infinite;
+  display: block;
   width: 10vw;
-  height: 10vh;
+  height: auto !important;
+  max-height: 100vh;
+  max-width: 100vw;
+  object-fit: contain;
+  animation: swim-left-right 20s linear infinite;
+  pointer-events: none;
+  z-index: 9999;
+  border: none;
 }
 
 .reverse {
-  transform: scaleX(-1); 
   animation: swim-right-left 24s linear infinite;
 }
 
 .fish-1 {
-  top: 10vh;
+  top: 50vh;
   left: -15vw;
   width: 10vw;
+  height: auto !important;
   animation-duration: 20s;
 }
 
 .fish-2 {
-  top: 25vh;
+  top: 60vh;
   left: -18vw;
   width: 8vw;
   animation-duration: 24s;
@@ -302,7 +309,7 @@ a{
 .fish-3 {
   top: 40vh;
   left: 100vw;
-  width: 6vw;
+  width: 10vw;
   animation-duration: 22s;
 }
 
@@ -313,7 +320,6 @@ a{
   animation-duration: 26s;
 }
 
-/* Optional additional fish */
 .fish-5 {
   top: 75vh;
   left: -20vw;
