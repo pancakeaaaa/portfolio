@@ -315,9 +315,9 @@ a{
 }
 
 .fish-1 {
-  top: 50vh;
+  top: 25vh;
   left: -15vw;
-  width: 10vw;
+  width: 13vw;
   height: auto !important;
   animation-duration: 20s;
 }
@@ -325,14 +325,14 @@ a{
 .fish-2 {
   top: 60vh;
   left: -18vw;
-  width: 8vw;
+  width: 12vw;
   animation-duration: 24s;
 }
 
 .fish-3 {
-  top: 40vh;
+  top: 10vh;
   left: 100vw;
-  width: 10vw;
+  width: 15vw;
   animation-duration: 22s;
 }
 
