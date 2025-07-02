@@ -200,7 +200,7 @@ nav ul li a .title {
 
 .text-art-1 {
   position: absolute;
-  top: 0;
+  top: -55vw;
   left: -5vw;
   width: 100%;
   z-index: 0;
@@ -398,19 +398,19 @@ body {
   margin: 0;
   font-family: sans-serif;
   color: black;
-  position: relative;
 }
 
-.text-art-bg {
+#text-art-bg {
   position: fixed;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
+  font-family: monospace;
   font-size: 10px;
   white-space: pre;
   color: rgba(255, 255, 255, 0.05); /* subtle overlay */
-  z-index: 1;
+  z-index: 0;
   pointer-events: none; /* so it doesn’t block clicks */
   overflow: hidden;
   padding: 20px;
