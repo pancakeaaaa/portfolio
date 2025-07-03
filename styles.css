@@ -185,7 +185,10 @@ nav ul li a .title {
 .bio-container img{
   padding: 0 20vw;
   position: relative;
-  
+}
+
+.Photo of Bri img{
+  z-index: 9999;
 }
 
 .bio-heading {
@@ -200,7 +203,7 @@ nav ul li a .title {
 
 .text-art-1 {
   position: absolute;
-  top: -55vw;
+  top: -45vw;
   left: -5vw;
   width: 100%;
   z-index: 0;
