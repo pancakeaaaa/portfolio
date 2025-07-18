@@ -82,6 +82,70 @@ p {
   margin-top: 0;
 }
 
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2vw 5vw;
+  background-color: #f4edd0;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 100;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.site-name {
+  font-family: 'Avara_Black', serif;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin: 0;
+  line-height: 1.2;
+  color: black;
+}
+
+address {
+  font-style: normal;
+  font-size: 1em;
+  font-family: 'Inclusive Sans', Arial, sans-serif;
+  color: black;
+}
+
+address a {
+  color: black;
+  text-decoration: none;
+}
+
+address a:hover {
+  color: #9652d9;
+}
+
+.main-nav ul {
+  display: flex;
+  gap: 2vw;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.main-nav ul li a {
+  font-family: 'Inclusive Sans', Arial, sans-serif;
+  font-size: 1.25em;
+  font-weight: 700;
+  color: black;
+  text-decoration: none;
+}
+
+.main-nav ul li a:hover {
+  color: #9652d9;
+}
+
 ol {
   font-family: 'Inclusive Sans', Arial, sans-serif;
   padding: 7vw 22.5vw 0;
@@ -115,46 +179,6 @@ h1 {
   width: 100%;
 }
 
-nav {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 7vw;
-  padding: 0 5vw;
-  background: #f4edd0;
-  z-index: 100;
-}
-
-nav .site-name {
-  font-family: 'Inclusive Sans', Arial, sans-serif;
-  font-size: 2.5em;
-  font-weight: 700;
-}
-
-nav ul {
-  display: flex;
-  gap: 2vw;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
-
-nav ul li a {
-  font-family: 'Inclusive Sans', Arial, sans-serif;
-  font-size: 1.25em;
-  font-weight: 700;
-  color: black;
-  text-decoration: none;
-}
-
-nav ul li a:hover,
-nav ul li a:active {
-  color: #9652d9;
-}
 
 .bio-container {
   display: flex;
