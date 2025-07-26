@@ -176,6 +176,7 @@ h1 {
   font-weight: 700;
   padding: 0 20vw;
   font-family: 'Inclusive Sans', Arial, sans-serif;
+  background: transparent; 
 }
 
 .home-images img {
@@ -442,8 +443,27 @@ body {
 
 h1 {
   font-size: 2em;
+  background: transparent;
 }
 
 .site-name a:hover {
   color: #9652d9;
+}
+
+#myBtn {
+  position: fixed;
+  bottom: 2vw;
+  right: 2vw;
+  z-index: 100;
+  background: transparent;
+  border: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+#myBtn img {
+  width: 150px;  /* adjust as needed */
+  height: auto;
+  display: block;
+  pointer-events: none;
 }
