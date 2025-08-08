@@ -467,3 +467,21 @@ h1 {
   display: block;
   pointer-events: none;
 }
+
+.cv-professional {
+  padding-top: 3vw;
+}
+
+.cv-professional p, h1, h2 {
+  padding-left: 1vw;
+  margin: 0;
+}
+
+h2 {
+  font-size: 12px;
+  white-space: nowrap;
+}
+
+body {
+  padding-top: 2vw;
+}
