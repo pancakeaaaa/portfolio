@@ -94,7 +94,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 2vw 5vw;
-  background-color: #00bf63;
+  background-color: #e4c67a;
   position: fixed;
   width: 100%;
   top: 0;
@@ -482,11 +482,6 @@ h1 {
 .cv-professional p, h1, h2 {
   padding-left: 1vw;
   margin: 0;
-}
-
-h2 {
-  font-size: 12px;
-  white-space: nowrap;
 }
 
 body {
