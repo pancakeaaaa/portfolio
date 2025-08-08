@@ -40,6 +40,13 @@
   font-style:normal;
 }
 
+@font-face{
+  font-family: 'Peix';
+  src:url('../portfolio/fonts/Peix.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   box-sizing: border-box;
 }
@@ -47,7 +54,7 @@
 body, h1, h2, h3, ol {
   overflow-wrap: break-word;
   word-break: break-word;
-  background-color: #f4edd0;
+  background-color: #e4c67a;
 }
 
 p {
@@ -87,7 +94,7 @@ p {
   justify-content: space-between;
   align-items: center;
   padding: 2vw 5vw;
-  background-color: #f4edd0;
+  background-color: #00bf63;
   position: fixed;
   width: 100%;
   top: 0;
