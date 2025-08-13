@@ -424,7 +424,6 @@ body {
   margin: 3vw 0 0 0;
   font-family: sans-serif;
   color: black;
-  text-align: justify;
   text-align-last: none;
 }
 
@@ -470,7 +469,7 @@ h1 {
 }
 
 #myBtn img {
-  width: 150px;  /* adjust as needed */
+  width: 150px; 
   height: auto;
   display: block;
   pointer-events: none;
