@@ -64,7 +64,7 @@ p {
   overflow-wrap: break-word;
   white-space: normal;
   line-height: 1.6;
-  margin: 0 20vw;
+  margin: 0 40vw 0 1vw;
   font-family: 'Inclusive Sans', Arial, sans-serif;
   text-justify: inter-word;
 }
@@ -82,7 +82,7 @@ p {
 
 #contents ol {
   font-family: 'Inclusive Sans', Arial, sans-serif;
-  padding: 0 22.5vw;
+  padding: 0 22.5vw 0 2.5vw;
   padding-bottom: -10vw !important;
   line-height: normal;
   font-size: 20px;
