@@ -64,7 +64,7 @@ p {
   overflow-wrap: break-word;
   white-space: normal;
   line-height: 1.6;
-  margin: 0 0vw 0 1vw;
+  margin: 0 20vw 0 1vw;
   font-family: 'Inclusive Sans', Arial, sans-serif;
   text-justify: inter-word;
 }
