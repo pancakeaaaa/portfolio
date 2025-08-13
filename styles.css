@@ -64,7 +64,7 @@ p {
   overflow-wrap: break-word;
   white-space: normal;
   line-height: 1.6;
-  margin: 0 40vw 0 1vw;
+  margin: 0 0vw 0 1vw;
   font-family: 'Inclusive Sans', Arial, sans-serif;
   text-justify: inter-word;
 }
@@ -486,4 +486,13 @@ h1 {
 
 body {
   padding-top: 2vw;
+}
+
+.bio-container2 {
+  margin-top: 2vw;
+}
+
+.bio-container2 p{
+  padding-bottom: 10px;
+  margin: 0 50vw 0 2vw;
 }
