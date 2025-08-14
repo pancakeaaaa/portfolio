@@ -1,3 +1,14 @@
+@media screen and (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start; /* so links are left-aligned */
+  }
+  nav ul li a {
+    padding: 1em;
+    width: 100%; /* make each link fill full width */
+  }
+}
+
 @font-face {
   font-family: 'Velvelyne';
   src: url('../portfolio/fonts/Velvelyne-Regular.woff2') format('woff2');
@@ -130,13 +141,13 @@ address a:hover {
 
 nav ul {
   position: fixed;
-  top: -1.7vh; /* same offset as original */
+  top: -1vw;
+  left: 0vw;
   display: flex;
-  font-size: 3.7vw; /* scales with viewport width */
+  font-size: 3.7vw;
   font-weight: 100;
   z-index: 50;
   letter-spacing: 0.5px;
-  transform: rotate(0deg); /* included for exact imitation */
   margin: 0;
   padding: 0;
 }
@@ -148,7 +159,7 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   text-decoration: none;
-  padding: 1px 1vw; /* thin top-bottom, wide left-right */
+  padding-right: 2vw;
   color: black;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
