@@ -159,7 +159,8 @@ nav ul li {
 nav ul li a {
   display: inline-block;
   text-decoration: none;
-  padding-right: 2vw;
+  padding-right: 1.5vw;
+  padding-left: 1vw;
   color: black;
   transition: background-color 0.2s ease, color 0.2s ease;
 }
@@ -490,8 +491,10 @@ h1 {
   pointer-events: none;
 }
 
-.cv-professional {
-  padding-top: 3vw;
+.cv-professional p, h1, h2 {
+  padding-left: 1vw;
+  padding-right: 35vw;
+  margin: 0;
 }
 
 .cv-professional p, h1, h2 {
