@@ -54,7 +54,7 @@
 body, h1, h2, h3, ol {
   overflow-wrap: break-word;
   word-break: break-word;
-  background-color: #e4c67a;
+  background-color: #D3BCB0;
   padding-top: 2vw;
 }
 
@@ -88,19 +88,6 @@ p {
   font-size: 20px;
   font-weight: 200;
   margin-top: 0;
-}
-
-.page-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 2vw 5vw;
-  background-color: #e4c67a;
-  position: fixed;
-  width: 100%;
-  top: 0;
-  left: 0;
-  z-index: 100;
 }
 
 .header-left {
@@ -141,26 +128,42 @@ address a:hover {
   color: #9652d9;
 }
 
-.main-nav ul {
+nav ul {
+  position: fixed;
+  top: -1.7vh; /* same offset as original */
   display: flex;
-  gap: 5vw;
-  list-style: none;
+  font-size: 3.7vw; /* scales with viewport width */
+  font-weight: 100;
+  z-index: 50;
+  letter-spacing: 0.5px;
+  transform: rotate(0deg); /* included for exact imitation */
   margin: 0;
-  margin-right: 4vw;
   padding: 0;
-  font-size: 18px;
 }
 
-.main-nav ul li a {
-  font-family: 'Inclusive Sans', Arial, sans-serif;
-  font-size: 1.25em;
-  font-weight: 700;
-  color: black;
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: inline-block;
   text-decoration: none;
+  padding: 1px 1vw; /* thin top-bottom, wide left-right */
+  color: black;
+  transition: background-color 0.2s ease, color 0.2s ease;
 }
 
-.main-nav ul li a:hover {
-  color: #9652d9;
+nav ul li a:visited {
+  color: black;
+}
+
+nav ul li a:hover {
+  background-color: #26f268; /* neon green hover */
+  color: white;
+}
+
+nav ul li a:active {
+  background-color: #26f268;
 }
 
 ol {
@@ -425,6 +428,7 @@ body {
   font-family: sans-serif;
   color: black;
   text-align-last: none;
+  padding-top: 2vw;
 }
 
 #text-art-bg {
@@ -484,15 +488,12 @@ h1 {
   margin: 0;
 }
 
-body {
-  padding-top: 2vw;
-}
-
 .bio-container2 {
   margin-top: 2vw;
 }
 
 .bio-container2 p{
   padding-bottom: 10px;
-  margin: 0 50vw 0 2vw;
+  margin: 0 45vw 0 2vw;
+  font-size: 1.3em;
 }
