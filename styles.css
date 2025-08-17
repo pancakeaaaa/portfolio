@@ -95,9 +95,6 @@ p {
   text-justify: inter-word;
 }
 
-#contents{
-  padding-top: 5vw;
-}
 #contents h1 + ol {
   margin-top: 0;
 }
@@ -116,11 +113,16 @@ p {
   margin-top: 0;
 }
 
-.header-left {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 3vw;
+.header-left a{
+  font-family: 'Teranoptia';
+  padding: 0.3vw;
+  font-size: 4em;
+  text-decoration: none;
+}
+
+.header-left a:hover{
+  background-color:#26f268;
+  color: white;
 }
 
 .header-left > * {
@@ -154,17 +156,33 @@ address a:hover {
   color: #9652d9;
 }
 
-nav ul {
+.page-header {
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;            
   position: fixed;
-  top: -1vw;
+  top: 0;
+  left: 0;
+  width: 100%;                  
+  z-index: 100;
+  background: transparent;        
+  top: -0.7vw;
   left: 0vw;
+  z-index: 50;
+}
+
+nav ul {
   display: flex;
   font-size: 3.7vw;
   font-weight: 100;
-  z-index: 50;
   letter-spacing: 0.5px;
   margin: 0;
   padding: 0;
+  list-style: none;
+  position: static; 
+  top: -1vw;
+  left: 0vw;
+  z-index: 50;
 }
 
 nav ul li {
@@ -183,8 +201,12 @@ nav ul li a:visited {
   color: black;
 }
 
+.page-header div{
+  display: inline-block;
+}
+
 nav ul li a:hover {
-  background-color: #26f268; /* neon green hover */
+  background-color: #26f268; 
   color: white;
 }
 
@@ -329,9 +351,9 @@ a{
 }
 
 #FOURFANGS p{
-  margin: 0 20vw;
   padding-bottom: 1vw;
   text-indent: 2em;
+  margin-right: 40vw;
 }
 
 .mla-citation-list p {
